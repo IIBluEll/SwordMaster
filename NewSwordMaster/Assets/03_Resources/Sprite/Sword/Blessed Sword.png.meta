@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blessed Sword_0: -815919246250139843
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

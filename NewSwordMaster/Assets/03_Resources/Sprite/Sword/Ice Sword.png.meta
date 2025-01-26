@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ice Sword_0: -7725892760984404757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

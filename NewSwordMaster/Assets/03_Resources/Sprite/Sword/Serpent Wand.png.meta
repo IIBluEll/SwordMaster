@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Serpent Wand_0: 1522012928730557572
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

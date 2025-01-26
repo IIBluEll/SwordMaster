@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Heroes Long Sword_0: 1595146968002293893
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

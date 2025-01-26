@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mirage Sword_0: -5263498009814981625
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

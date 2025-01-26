@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sandsweeper Scimitar_0: 2183391681660437881
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

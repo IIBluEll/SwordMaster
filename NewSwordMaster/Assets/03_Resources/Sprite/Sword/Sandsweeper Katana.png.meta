@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sandsweeper Katana_0: 8769456089002036297
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

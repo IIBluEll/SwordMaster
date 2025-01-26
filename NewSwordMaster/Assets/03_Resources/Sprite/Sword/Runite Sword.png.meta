@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Runite Sword_0: -5662023034204698514
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

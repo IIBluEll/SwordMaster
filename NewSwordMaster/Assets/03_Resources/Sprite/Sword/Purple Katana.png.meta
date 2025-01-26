@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Purple Katana_0: 2745042975495445436
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

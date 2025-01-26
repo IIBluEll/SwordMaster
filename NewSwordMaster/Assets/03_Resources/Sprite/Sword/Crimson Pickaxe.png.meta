@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Crimson Pickaxe_0: 789268074259968033
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

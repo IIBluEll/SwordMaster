@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Glass Sword_0: 7791931566977313830
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

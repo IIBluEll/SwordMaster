@@ -10,12 +10,13 @@ public class SwordEnhanceSystem : MonoBehaviour
    public int playerGold = 1000;
 
    public Button enhanceButton;
-
+   public SpriteRenderer spriteRenderer;
    private void Awake()
    {
       enhanceButton.onClick.AddListener(OnClickEnhanceButton);
 
       currentSword = swordDataList.GetSwordByLevel(1);
+      spriteRenderer.sprite = currentSword.swordSprite;
    }
 
    public void OnClickEnhanceButton()
@@ -40,6 +41,7 @@ public class SwordEnhanceSystem : MonoBehaviour
          if (nextSword != null)
          {
             currentSword = nextSword;
+            spriteRenderer.sprite = currentSword.swordSprite;
             Debug.Log($"강화 성공! 현재 검은 {currentSword.swordName_KR} 입니다.");
          }
       }
@@ -48,6 +50,7 @@ public class SwordEnhanceSystem : MonoBehaviour
          Debug.Log("강화 실패!");
          SwordData level1Sword = swordDataList.GetSwordByLevel(1);
          currentSword = level1Sword;
+         spriteRenderer.sprite = currentSword.swordSprite;
       }
    }
    

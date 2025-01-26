@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shadow Speed Dagger_0: -8522714663427477953
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

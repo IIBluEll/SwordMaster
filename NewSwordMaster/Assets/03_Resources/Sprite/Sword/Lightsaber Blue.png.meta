@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lightsaber Blue_0: 4278779321663277627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

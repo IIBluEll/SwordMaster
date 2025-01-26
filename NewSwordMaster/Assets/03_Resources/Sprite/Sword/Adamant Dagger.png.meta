@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Adamant Dagger_0: -3440473148933895307
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

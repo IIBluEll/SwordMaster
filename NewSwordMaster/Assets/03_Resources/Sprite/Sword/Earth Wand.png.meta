@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Earth Wand_0: 1446560829349213715
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

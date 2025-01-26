@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wraith Dagger_0: -63246985936671037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

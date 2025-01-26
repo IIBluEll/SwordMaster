@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ember Dagger_0: 1090425219179951465
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

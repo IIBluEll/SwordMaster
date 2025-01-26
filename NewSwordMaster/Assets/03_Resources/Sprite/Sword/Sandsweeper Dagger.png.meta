@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sandsweeper Dagger_0: 362885118491052999
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

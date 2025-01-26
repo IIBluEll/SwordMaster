@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ember Long Sword_0: 8927833337321046129
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Crimson Dagger_0: 577657796149010825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

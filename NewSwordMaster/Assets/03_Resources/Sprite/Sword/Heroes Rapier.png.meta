@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Heroes Rapier_0: -7761651050871341240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

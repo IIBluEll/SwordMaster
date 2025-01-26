@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Copper Dagger_0: 8401115090837368036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
