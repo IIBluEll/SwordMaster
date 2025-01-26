@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30346a099e54244a827b7aff74e98e9, type: 3}
+  m_Name: SwordDataList
+  m_EditorClassIdentifier: 
+  SwordDatas:
+  - swordLevel: 1
+    swordName_KR: "\uAE30\uBCF8 \uAC80"
+    swordName_EN: Basic Sword
+    nextSwordLevel: 2
+    upgradeCost: 1
+    upgradeRate: 90
+    damage: 10
+    attackSpeed: 0.5
+    swordSprite: {fileID: 1378003112227742836, guid: d32afa06d12a25144b4f8e51174e180e, type: 3}
+  - swordLevel: 2
+    swordName_KR: "\uBB49\uD22D\uD55C \uAC80"
+    swordName_EN: Blunt Sword
+    nextSwordLevel: 3
+    upgradeCost: 5
+    upgradeRate: 80
+    damage: 12
+    attackSpeed: 0.5
+    swordSprite: {fileID: 5402955500037999739, guid: 1eac70e7d50e3cf428a7ee50c515e61b, type: 3}
+  - swordLevel: 3
+    swordName_KR: "\uC625\uC218\uC218 \uAC80"
+    swordName_EN: Corn Sword
+    nextSwordLevel: 4
+    upgradeCost: 10
+    upgradeRate: 70
+    damage: 15
+    attackSpeed: 0.5
+    swordSprite: {fileID: 3009390115763747145, guid: de7594c5501444c489ca3167ef8c634b, type: 3}
+  - swordLevel: 4
+    swordName_KR: "\uC625 \uB2E8\uAC80"
+    swordName_EN: Jade Dagger
+    nextSwordLevel: 5
+    upgradeCost: 15
+    upgradeRate: 60
+    damage: 15
+    attackSpeed: 0.75
+    swordSprite: {fileID: -3440473148933895307, guid: 74e13a7f07ef888498cd68adfa9f7d67, type: 3}
+  - swordLevel: 5
+    swordName_KR: "\uC625 \uAC80"
+    swordName_EN: Jade Sword
+    nextSwordLevel: -1
+    upgradeCost: -1
+    upgradeRate: -1
+    damage: 20
+    attackSpeed: 0.5
+    swordSprite: {fileID: -4895301787165733562, guid: 7d239de5a208e4548af8fe97b6f3ee8c, type: 3}
