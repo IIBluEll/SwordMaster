@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,21 +7,45 @@ public class SwordEnhanceSystem : MonoBehaviour
 {
    [SerializeField] private SwordData currentSword;
    [SerializeField] private SwordSO swordDataList;
+   [SerializeField] private BlackSmithUpgradeMotion blackSmithUpgradeMotion;
 
-   public int playerGold = 1000;
-
+   public TMP_Text swordName;
+   public TMP_Text swordLevel;
+   public TMP_Text swordUpgradeRate;
+   
+   public ParticleSystem swordChangeEffect;
+   
    public Button enhanceButton;
    public SpriteRenderer spriteRenderer;
+   
+   public int playerGold = 1000;
+
+   private bool isEnhancing = false;
+   
    private void Awake()
    {
       enhanceButton.onClick.AddListener(OnClickEnhanceButton);
 
       currentSword = swordDataList.GetSwordByLevel(1);
       spriteRenderer.sprite = currentSword.swordSprite;
+ 
+      ChangeText();
+   }
+
+   public void ChangeText()
+   {
+      swordName.text = currentSword.swordName_EN;
+      swordLevel.text = currentSword.swordLevel + "LV";
+      swordUpgradeRate.text = currentSword.upgradeRate + "%";
    }
 
    public void OnClickEnhanceButton()
    {
+      if (isEnhancing)
+      {
+         return;
+      }
+      
       if (playerGold < currentSword.upgradeCost)
       {
          Debug.LogError("플레이어가 가지고 있는 골드가 부족합니다.");
@@ -33,6 +58,15 @@ public class SwordEnhanceSystem : MonoBehaviour
       }
 
       playerGold -= currentSword.upgradeCost;
+
+      isEnhancing = true;
+
+      blackSmithUpgradeMotion.StartHammerSequence();
+   }
+
+   public void OnHammerSequenceComplete()
+   {
+      swordChangeEffect.Play();
       
       //확률 체크
       if (ReturnEnhanceRate(currentSword.upgradeRate))
@@ -52,6 +86,9 @@ public class SwordEnhanceSystem : MonoBehaviour
          currentSword = level1Sword;
          spriteRenderer.sprite = currentSword.swordSprite;
       }
+      
+      ChangeText();
+      isEnhancing = false;
    }
    
    //확률 체크

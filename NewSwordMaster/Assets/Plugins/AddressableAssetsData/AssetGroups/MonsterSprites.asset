@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: MonsterSprites
+  m_EditorClassIdentifier: 
+  m_GroupName: MonsterSprites
+  m_GUID: 713df3101e5ba8845a5fdaff903b8d57
+  m_SerializeEntries:
+  - m_GUID: 09e9fdb728d85994d8d6d43b853b60fa
+    m_Address: BlindedGrimlock_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fa72851d14fc344b857b81c64efce1e
+    m_Address: CrimsonSlaad_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acf79a1eed8ac62489a2d2bb245587b6
+    m_Address: BloodshotEye_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbf0feca1f102f54cb50af258b7554f2
+    m_Address: BrawnyOgre_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d3331f33b4db2d04ab38a79b51f5b498, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: da169f7e07296e345a88cd7ef621a7e4, type: 2}
+    - {fileID: 11400000, guid: 94e61e171628a6a48b072fa84350f8d4, type: 2}
