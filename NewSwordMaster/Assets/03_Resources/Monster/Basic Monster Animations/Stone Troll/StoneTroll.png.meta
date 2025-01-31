@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StoneTroll_0: -57648714658656815
+      StoneTroll_1: -8169427979484620220
+      StoneTroll_2: 7718889437095694262
+      StoneTroll_3: -5358505587708176550
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SwampTroll_0: -6271500623770248480
+      SwampTroll_1: 3321221980076029534
+      SwampTroll_2: -821027872216296883
+      SwampTroll_3: 583103957588599937
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

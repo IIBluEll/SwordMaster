@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ShriekerMushroom_0: 2777739401088810008
+      ShriekerMushroom_1: -8251361982624501364
+      ShriekerMushroom_2: 7142349447311821462
+      ShriekerMushroom_3: 582607441299323310
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

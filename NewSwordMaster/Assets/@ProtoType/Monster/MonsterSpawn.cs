@@ -21,7 +21,7 @@ public class MonsterSpawn : MonoBehaviour
 
    public Button monsterKillBtn;
    
-   private async void Start()
+   private async void Awake()
    {
       monsterKillBtn.onClick.AddListener(KillMonster);
       
@@ -61,6 +61,11 @@ public class MonsterSpawn : MonoBehaviour
 
    public void SpawnMonster()
    {
+      killCount++;
+      if (killCount % 3 == 0)
+      {
+         currentLevel++;
+      }
       string monsterName = GetRandomMonsterName();
       string spriteName = GetRandomSpriteKey();
 

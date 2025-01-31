@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      OchreJelly_0: -2207019685279717077
+      OchreJelly_1: -1376699025567256128
+      OchreJelly_2: -4721737928146631952
+      OchreJelly_3: 6437957746003176240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

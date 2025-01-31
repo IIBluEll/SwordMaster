@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MurkySlaad_0: 8840920326925454589
+      MurkySlaad_1: 7211547573801177948
+      MurkySlaad_2: 4068993163099789398
+      MurkySlaad_3: 3739370697971395820
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

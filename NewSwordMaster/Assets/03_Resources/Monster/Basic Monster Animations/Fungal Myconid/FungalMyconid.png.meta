@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FungalMyconid_0: 510683012303594349
+      FungalMyconid_1: -8609592097911626303
+      FungalMyconid_2: 609693872740988799
+      FungalMyconid_3: -4085752315564358240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

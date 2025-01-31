@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HumongousEttin_0: 7024762585298239526
+      HumongousEttin_1: -4824036435325463152
+      HumongousEttin_2: 1163183436106966176
+      HumongousEttin_3: -8588787891950359445
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

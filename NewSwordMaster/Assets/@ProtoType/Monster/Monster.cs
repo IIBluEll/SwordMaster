@@ -11,7 +11,10 @@ public class Monster : MonoBehaviour
    private Sprite[] animationFrames;
    private float animationSpeed = 0.5f;
 
+   private Coroutine monsterAnim;
+   
    public Action monsterDie;
+   
    public void SetUpMonster(string name, string sprite, Sprite[] frames, float hp)
    {
       monsterName = name;
@@ -42,7 +45,7 @@ public class Monster : MonoBehaviour
       }
    }
 
-   public void TakeDamage(int damage)
+   public void TakeDamage(float damage)
    {
       health -= damage;
 
@@ -54,6 +57,8 @@ public class Monster : MonoBehaviour
 
    private void Die()
    {
+      StopCoroutine(PlayAnimation());
+      
       Debug.Log($"{monsterName} has been defeated!");
       monsterDie?.Invoke();
    }

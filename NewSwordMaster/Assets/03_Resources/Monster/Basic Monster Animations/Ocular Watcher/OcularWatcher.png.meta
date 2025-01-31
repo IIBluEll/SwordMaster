@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      OcularWatcher_0: 905840938178670301
+      OcularWatcher_1: 736947429455551993
+      OcularWatcher_2: -8894580217276112166
+      OcularWatcher_3: -1088395967450916972
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

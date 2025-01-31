@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CrushingCyclops_0: -721324719392653727
+      CrushingCyclops_1: -913691719737636634
+      CrushingCyclops_2: 3665950025816996241
+      CrushingCyclops_3: 7899537486643840411
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
