@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30346a099e54244a827b7aff74e98e9, type: 3}
+  m_Name: Sword_LV3_Corn Sword
+  m_EditorClassIdentifier: 
+  swordData:
+    swordLevel: 3
+    swordName_KR: "\uC625\uC218\uC218 \uAC80"
+    swordName_EN: Corn Sword
+    nextSwordLevel: 4
+    upgradeCost: 10
+    upgradeRate: 98
+    damage: 15
+    attackSpeed: 0.5
+    swordSprite: {fileID: 3009390115763747145, guid: de7594c5501444c489ca3167ef8c634b, type: 3}

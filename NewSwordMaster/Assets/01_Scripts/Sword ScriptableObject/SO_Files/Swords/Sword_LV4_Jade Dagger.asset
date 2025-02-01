@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30346a099e54244a827b7aff74e98e9, type: 3}
+  m_Name: Sword_LV4_Jade Dagger
+  m_EditorClassIdentifier: 
+  swordData:
+    swordLevel: 4
+    swordName_KR: "\uC625 \uB2E8\uAC80"
+    swordName_EN: Jade Dagger
+    nextSwordLevel: 5
+    upgradeCost: 15
+    upgradeRate: 97
+    damage: 15
+    attackSpeed: 0.75
+    swordSprite: {fileID: -3440473148933895307, guid: 74e13a7f07ef888498cd68adfa9f7d67, type: 3}

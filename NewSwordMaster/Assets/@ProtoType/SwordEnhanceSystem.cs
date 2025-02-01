@@ -26,7 +26,7 @@ public class SwordEnhanceSystem : MonoBehaviour
    {
       enhanceButton.onClick.AddListener(OnClickEnhanceButton);
 
-      currentSword = swordDataList.GetSwordByLevel(1);
+     // currentSword = swordDataList.GetSwordByLevel(1);
       spriteRenderer.sprite = currentSword.swordSprite;
  
       ChangeText();
@@ -71,10 +71,10 @@ public class SwordEnhanceSystem : MonoBehaviour
       //확률 체크
       if (ReturnEnhanceRate(currentSword.upgradeRate))
       {
-         SwordData nextSword = swordDataList.GetSwordByLevel(currentSword.nextSwordLevel);
-         if (nextSword != null)
+      //   SwordData nextSword = swordDataList.GetSwordByLevel(currentSword.nextSwordLevel);
+        // if (nextSword != null)
          {
-            currentSword = nextSword;
+        //    currentSword = nextSword;
             spriteRenderer.sprite = currentSword.swordSprite;
             Debug.Log($"강화 성공! 현재 검은 {currentSword.swordName_KR} 입니다.");
          }
@@ -82,8 +82,8 @@ public class SwordEnhanceSystem : MonoBehaviour
       else
       {
          Debug.Log("강화 실패!");
-         SwordData level1Sword = swordDataList.GetSwordByLevel(1);
-         currentSword = level1Sword;
+      //   SwordData level1Sword = swordDataList.GetSwordByLevel(1);
+        // currentSword = level1Sword;
          spriteRenderer.sprite = currentSword.swordSprite;
       }
       
