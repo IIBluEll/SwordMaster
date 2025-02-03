@@ -24,7 +24,7 @@ public class Player_AutoAttack : MonoBehaviour
 
     public void EquipSword(int level)
     {
-       // currentSwordData = swordScriptableObject.GetSwordByLevel(level);
+        currentSwordData = swordScriptableObject.swordData;
 
         spriteRenderer.sprite = currentSwordData.swordSprite;
         playerAnim.speed = currentSwordData.attackSpeed;

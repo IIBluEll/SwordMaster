@@ -19,12 +19,8 @@ public class MonsterSpawn : MonoBehaviour
    public int killCount = 0;
    public bool isBossActive = false;
 
-   public Button monsterKillBtn;
-   
    private async void Awake()
    {
-      monsterKillBtn.onClick.AddListener(KillMonster);
-      
       monster = monsterObject.GetComponent<Monster>();
       monster.monsterDie += SpawnMonster;
       // 몬스터 CSV에서 불러오기
@@ -34,11 +30,6 @@ public class MonsterSpawn : MonoBehaviour
       SpawnMonster();
    }
 
-   public void KillMonster()
-   {
-      monster.TakeDamage(10);
-   }
-   
    private async UniTask LoadMonsterAnimation()
    {
       foreach (var monsterSprite in monsterSprites)
@@ -94,6 +85,6 @@ public class MonsterSpawn : MonoBehaviour
 
    private float CalculateHealth(int level)
    {
-      return 1 + (level);
+      return 10 + (level * 5);
    }
 }

@@ -8,7 +8,7 @@ public class BlackSmithUpgradeMotion : MonoBehaviour
     public Animator animator;
     public GameObject hitEffectPrefab;
     public GameObject changeEffectPrefab;
-    public SwordEnhanceSystem swordEnhanceSystem;
+    public EnhanceSystem swordEnhanceSystem;
 
     public ParticleSystem hitEffectParticle;
     public ParticleSystem changeEffectParticle;
@@ -44,6 +44,11 @@ public class BlackSmithUpgradeMotion : MonoBehaviour
         else
         {
             swordEnhanceSystem.OnHammerSequenceComplete();
+
+            if (changeEffectParticle != null)
+            {
+                changeEffectParticle.Play();
+            }
         }
     }
 }

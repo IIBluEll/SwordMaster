@@ -14,7 +14,9 @@ public class Monster : MonoBehaviour
    private Coroutine monsterAnim;
    
    public Action monsterDie;
-   
+   public Action<string, float> monsterUIEvent;
+   public Action<float> monsterHitUIEvent;
+
    public void SetUpMonster(string name, string sprite, Sprite[] frames, float hp)
    {
       monsterName = name;
@@ -25,8 +27,10 @@ public class Monster : MonoBehaviour
 
       if (animationFrames != null && animationFrames.Length > 0)
       {
-         StartCoroutine(PlayAnimation());
+         monsterAnim = StartCoroutine(PlayAnimation());
       }
+      
+      monsterUIEvent?.Invoke(monsterName, health);
    }
 
    private IEnumerator PlayAnimation()
@@ -51,13 +55,16 @@ public class Monster : MonoBehaviour
 
       if (health <= 0)
       {
+         health = 0;
          Die();
-      }
+      }  
+      
+      monsterHitUIEvent?.Invoke(health);
    }
 
    private void Die()
    {
-      StopCoroutine(PlayAnimation());
+      StopCoroutine(monsterAnim);
       
       Debug.Log($"{monsterName} has been defeated!");
       monsterDie?.Invoke();
