@@ -9,6 +9,7 @@ public class EnhanceSystem : MonoBehaviour
     [SerializeField] private List<SwordSO> swordSoList;
     [SerializeField] private SwordSO currentSwordSO;
     [SerializeField] private BlackSmithUpgradeMotion blackSmithUpgradeMotion;
+    [SerializeField] private InventorySystem inventorySystem; // 인벤토리 시스템 
 
     private SwordData currentSword;
     public TMP_Text swordName;
@@ -16,6 +17,7 @@ public class EnhanceSystem : MonoBehaviour
     public TMP_Text swordUpgradeRate;
     
     public Button enhanceButton;
+    public Button addInventoryButton;
     public SpriteRenderer spriteRenderer;
     
     public int playerGold = 1000;
@@ -24,7 +26,8 @@ public class EnhanceSystem : MonoBehaviour
     private void Awake()
     {
         enhanceButton.onClick.AddListener(OnClickEnhanceButton);
-
+        addInventoryButton.onClick.AddListener(AddToInventory);
+        
         currentSwordSO = swordSoList[0];
         currentSword = currentSwordSO.swordData;
 
@@ -98,5 +101,31 @@ public class EnhanceSystem : MonoBehaviour
         UnityEngine.Random.InitState((int)(DateTime.Now.Ticks));
 
         return UnityEngine.Random.Range(0, 100) <= upgradeCost;
+    }
+    
+    public void AddToInventory()
+    {
+        if (inventorySystem != null)
+        {
+            inventorySystem.AddToInventory(currentSwordSO);
+        }
+
+        currentSwordSO = null;
+        spriteRenderer.sprite = null;
+
+        ResetToDefaultSword();
+    }
+
+    public void RemoveInventory(int num)
+    {
+        inventorySystem.RemoveFromInventory(num);
+    }
+
+    private void ResetToDefaultSword()
+    {
+        currentSwordSO = swordSoList[0]; // 레벨 1 검으로 변경
+        currentSword = currentSwordSO.swordData;
+        spriteRenderer.sprite = currentSword.swordSprite;
+        ChangeTxt();
     }
 }
