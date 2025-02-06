@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swordData:
     swordLevel: 2
-    swordName_KR: "\uBB49\uD22D\uD55C \uAC80"
+    swordName_KR: "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD \uFFFD\uFFFD"
     swordName_EN: Blunt Sword
     nextSwordLevel: 3
     upgradeCost: 5
-    upgradeRate: 99
+    upgradeRate: 95
     damage: 12
     attackSpeed: 0.5
     swordSprite: {fileID: 5402955500037999739, guid: 1eac70e7d50e3cf428a7ee50c515e61b, type: 3}

@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swordData:
     swordLevel: 5
-    swordName_KR: "\uC625 \uAC80"
+    swordName_KR: "\uFFFD\uFFFD \uFFFD\uFFFD"
     swordName_EN: Jade Sword
-    nextSwordLevel: -1
-    upgradeCost: -1
-    upgradeRate: -1
+    nextSwordLevel: 6
+    upgradeCost: 20
+    upgradeRate: 80
     damage: 20
     attackSpeed: 0.5
     swordSprite: {fileID: -4895301787165733562, guid: 7d239de5a208e4548af8fe97b6f3ee8c, type: 3}

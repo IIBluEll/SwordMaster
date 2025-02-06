@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swordData:
     swordLevel: 3
-    swordName_KR: "\uC625\uC218\uC218 \uAC80"
+    swordName_KR: "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD \uFFFD\uFFFD"
     swordName_EN: Corn Sword
     nextSwordLevel: 4
     upgradeCost: 10
-    upgradeRate: 98
+    upgradeRate: 90
     damage: 15
     attackSpeed: 0.5
     swordSprite: {fileID: 3009390115763747145, guid: de7594c5501444c489ca3167ef8c634b, type: 3}

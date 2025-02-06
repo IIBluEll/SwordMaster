@@ -444,6 +444,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 01b13498a0b595e4a96981ea8d03f802, type: 2}
   - {fileID: 11400000, guid: 05dcf44355dc5354282ac7e05a22fb6a, type: 2}
   - {fileID: 11400000, guid: 0df3e0a5c3025c142b1007407f0e596c, type: 2}
+  - {fileID: 11400000, guid: 23f3de66ffd798e4babf30e4a0735fba, type: 2}
+  - {fileID: 11400000, guid: 37925bbe410371d4cad8cf432a181c9a, type: 2}
+  - {fileID: 11400000, guid: 89963512e95b1624f906264e31c6f45b, type: 2}
+  - {fileID: 11400000, guid: 54623c878236a7342baf1019bd131ea2, type: 2}
+  - {fileID: 11400000, guid: 7184d472b275dd445b82c7be8f88c57c, type: 2}
   currentSwordSO: {fileID: 0}
   blackSmithUpgradeMotion: {fileID: 6734428946525759491}
   inventorySystem: {fileID: 680407906}

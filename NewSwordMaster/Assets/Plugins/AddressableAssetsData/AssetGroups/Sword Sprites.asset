@@ -15,8 +15,18 @@ MonoBehaviour:
   m_GroupName: Sword Sprites
   m_GUID: 129bef6824c26f44881e8b4b43af20e1
   m_SerializeEntries:
+  - m_GUID: 10707e1d4c2a1fc44ae8ec0e09792e48
+    m_Address: Katana.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1eac70e7d50e3cf428a7ee50c515e61b
     m_Address: Blunt Sword.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5847349901149914d994d82900cae056
+    m_Address: Wraith Sword.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -27,6 +37,21 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7d239de5a208e4548af8fe97b6f3ee8c
     m_Address: Jade Sword.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 980dc7edeb4db6f4081f637d8dea0f47
+    m_Address: Gold Sword.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9360252cae111e44a3f32a484eec0b8
+    m_Address: Wraith Long Sword.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3012b7bedd59e9408b2a6617191f228
+    m_Address: Black Sword.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

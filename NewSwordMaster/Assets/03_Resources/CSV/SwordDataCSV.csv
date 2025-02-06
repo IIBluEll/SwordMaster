@@ -1,6 +1,11 @@
-ï»¿Level,Sword_Sprite,Sword_Name_KR,Sword_Name_EN,Next_Sword_Level,Upgrade_Cost,Upgrade_Rate,Damage,Attack_Speed
-1,ê·¸ë¦¼,ê¸°ë³¸ ê²€,Basic Sword,2,1,100,10,0.5
-2,ê·¸ë¦¼,ë­‰íˆ­í•œ ê²€,Blunt Sword,3,5,99,12,0.5
-3,ê·¸ë¦¼,ì˜¥ìˆ˜ìˆ˜ ê²€,Corn Sword,4,10,98,15,0.5
-4,ê·¸ë¦¼,ì˜¥ ë‹¨ê²€,Jade Dagger,5,15,97,15,0.75
-5,ê·¸ë¦¼,ì˜¥ ê²€,Jade Sword,-1,-1,-1,20,0.5
+Level,Sword_Sprite,Sword_Name_KR,Sword_Name_EN,Next_Sword_Level,Upgrade_Cost,Upgrade_Rate,Damage,Attack_Speed
+1,±×¸²,±âº» °Ë,Basic Sword,2,1,100,10,0.5
+2,±×¸²,¹¶ÅöÇÑ °Ë,Blunt Sword,3,5,95,12,0.5
+3,±×¸²,¿Á¼ö¼ö °Ë,Corn Sword,4,10,90,15,0.5
+4,±×¸²,¿Á ´Ü°Ë,Jade Dagger,5,15,85,15,0.75
+5,±×¸²,¿Á °Ë,Jade Sword,6,20,80,20,0.5
+6,±×¸²,Èæ ´ë°Ë,Black Sword,7,25,75,25,0.75
+7,±×¸²,ÀÏº»µµ,Katana,8,30,70,30,1
+8,±×¸²,¹Ì½º¸± °Ë,Wraith Sword,9,35,65,35,0.75
+9,±×¸²,Ç÷°Ë,Crimson Battle Sword,10,40,60,40,0.75
+10,±×¸²,È²±Ý °Ë,Gold Sword,11,45,55,45,0.75

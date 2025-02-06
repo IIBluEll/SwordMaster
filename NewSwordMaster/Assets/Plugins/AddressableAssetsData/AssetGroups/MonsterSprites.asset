@@ -25,6 +25,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56bdc53d1c0c82e40b07e1d185015932
+    m_Address: Crimson Battle Sword.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: acf79a1eed8ac62489a2d2bb245587b6
     m_Address: BloodshotEye_0
     m_ReadOnly: 0

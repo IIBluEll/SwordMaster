@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swordData:
     swordLevel: 1
-    swordName_KR: "\uAE30\uBCF8 \uAC80"
+    swordName_KR: "\uFFFD\u2EBB \uFFFD\uFFFD"
     swordName_EN: Basic Sword
     nextSwordLevel: 2
     upgradeCost: 1

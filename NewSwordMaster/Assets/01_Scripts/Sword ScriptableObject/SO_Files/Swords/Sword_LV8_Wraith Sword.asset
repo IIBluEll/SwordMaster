@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30346a099e54244a827b7aff74e98e9, type: 3}
+  m_Name: Sword_LV8_Wraith Sword
+  m_EditorClassIdentifier: 
+  swordData:
+    swordLevel: 8
+    swordName_KR: "\uFFFD\u033D\uFFFD\uFFFD\uFFFD \uFFFD\uFFFD"
+    swordName_EN: Wraith Sword
+    nextSwordLevel: 9
+    upgradeCost: 35
+    upgradeRate: 65
+    damage: 35
+    attackSpeed: 0.75
+    swordSprite: {fileID: -9216938095002227128, guid: 5847349901149914d994d82900cae056, type: 3}
